@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:var(--navbar-bg-color) ;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: var(--text-color);
+  }
+  nav a:hover {
+    color: var(--text-color-acent);
+}
